@@ -8,5 +8,16 @@
 
 my_list = []
 
+for i in range (1, 11):
+    my_list.append(i)
+
+    groter_dan_vier = []
+
+    for getal in my_list:
+        if getal > 4:
+            groter_dan_vier.append(getal)
+
+            print(groter_dan_vier)
+
 #for loop
 #if statement
